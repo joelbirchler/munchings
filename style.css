@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Strait);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Droid Sans', serif;
+}
+
+body { background-color: #333; }
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select
+{
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+abbr, acronym
+{
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+#nav 
+{ 
+  background-color: #3d6; 
+  padding: 0.5em; 
+  text-shadow: 0px 1px 0px #6f9;
+  text-align: center; 
+}
+  
+#nav li { 
+  display: inline; 
+  padding: 1em; 
+  color: #080; 
+  font-family: 'Strait', serif;
+  cursor: hand; 
+  cursor: pointer;
+}
+
+#nav li:hover { color: #030; }
+#nav li.selected, #nav li.selected:hover { color: white; }
+
+
+#food
+{
+  padding: 1em;
+  line-height: 2em;
+  color: #ccc;
+}
+
+#food li.legal:before { content: "✓"; color: #3d3; margin-right: 1em; }
+#food li.illegal:before { content: "✖"; color: #d33; margin-right: 1em; }
